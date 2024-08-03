@@ -15,7 +15,6 @@ using System.IO;
 using NPOI.SS.UserModel;
 using NPOI.SS.Util;
 using SharpSvn;
-using SharpSvn.UI;
 using System.Collections.ObjectModel;
 using NetDiff;
 using System.Security.Cryptography;

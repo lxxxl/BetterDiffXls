@@ -77,7 +77,7 @@
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="NPOI" Version="2.7.0" />
     <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
-    <PackageReference Include="SharpSvn.1.9-x86" Version="1.9007.3987.251" />
+    <PackageReference Include="SharpSvn" Version="1.14003.272" />
     <PackageReference Include="SharpZipLib" Version="1.4.1" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -87,8 +87,5 @@
     <Compile Remove="NetDiff\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
     <Compile Remove="NetDiff\obj\Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
     <Compile Remove="NetDiff\Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnityYamlParser\UnityYamlParser.csproj" />
   </ItemGroup>
 </Project>

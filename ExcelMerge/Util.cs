@@ -13,7 +13,6 @@ using NetDiff;
 using System.Dynamic;
 using System.IO;
 using System.Windows.Documents;
-using UnityYamlParser;
 
 namespace ExcelMerge {
     class Util {
@@ -506,13 +505,6 @@ namespace ExcelMerge {
             result = "";
             return false;
         }
-    }
-
-    public class YamlDiffNode
-    {
-        public List<DiffResult<GameObject>> diff;
-
-        public List<YamlDiffNode> childs = new List<YamlDiffNode>();
     }
 
 
